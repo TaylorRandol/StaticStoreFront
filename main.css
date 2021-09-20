@@ -1,0 +1,170 @@
+/*Common Elements*/
+body {
+    background: url(img/cloudysky.jpg) no-repeat fixed center;
+    padding: 0;
+    margin: 0;
+    display: block;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 102%;
+    -o-background-size: 100% 100%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.05em;
+}
+
+
+
+/*Header*/
+
+
+header h1 {
+    text-shadow: 2px 3px 5px black;
+    color: whitesmoke;
+    margin: 0;
+    font-size: 4.1em;
+    font-weight: bold;
+}
+header h2 {
+    text-shadow: 2px 3px 5px black;
+    color: whitesmoke;
+    margin: 0;
+    font-size: 2.7em;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+}
+nav li {
+    display: inline-block;
+}
+nav#mainNav a, a:visited{
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+}
+nav#mainNav a:hover{
+    color: lightskyblue;
+}
+nav#mainNav ul li::after {
+    content: "|| ";
+    padding-left: 0.8em;
+}
+
+#mainNav {
+    font-size: 2em;
+    letter-spacing: .175em;
+    margin: .5em;
+    border-bottom: solid lightskyblue 3px;
+    text-align: center;
+}
+
+#menu {
+    color: gold;
+    display: block;
+}
+
+/*Nav Bars*/
+nav#altNav a, a:visited {
+    color:red;
+}
+nav#altNav a:hover {
+    color: rgb(16, 39, 107);
+}
+
+#altNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: red;
+    font-weight: bold;
+    float: right;
+    list-style: none;
+    letter-spacing: .12em;
+    opacity: 90%;
+    padding: 0 2% 0 0;
+    background-color: lightgrey;
+    margin: 0;
+}
+
+nav#altNav ul li::before {
+    font-weight: bold;
+    content: "|| ";
+    padding: 0 0.5em 0 0.5em;
+}
+/*Main Section*/
+
+#new {
+    margin: 0 0 0 1.3em;
+    float: left;
+    border: solid skyblue 2px;
+    border-radius: 1em;
+    text-align: center;
+    width: 46%;
+    height: 45%;
+    color: lightskyblue;
+    background-color: rgb(16, 39, 107);
+}
+h3 {
+    font-size: 2.7em;
+    outline: solid skyblue 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+p {
+    border-top: solid skyblue 2px;
+    border-bottom: solid skyblue 2px;
+    text-align: left;
+    padding: 1em;
+}
+
+#sellers {
+    margin: 0 1.3em 5em 0;
+    float: right;
+    border: solid skyblue 2px;
+    border-radius: 1em;
+    text-align: center;
+    width: 46%;
+    height: 45%;
+    color: lightskyblue;
+    background-color: rgb(16, 39, 107);
+}
+/*Alt Section*/
+#reviews {
+    display: inline-block;
+    border: skyblue solid 2px;
+    border-radius: 1em;
+    margin: 3em 1.3em 2em 1.3em;
+    text-align: center;
+    background-color: rgb(16, 39, 107);
+    color: lightskyblue;
+}
+/*Footer*/
+footer {
+    background-color: midnightblue;
+    height: 30px;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 1.75em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    margin: 0 0 0 0.2em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li::before {
+    content: "|| ";
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+}
+
+footer a, a:visited {
+    color: gold;
+}
+
+footer a:hover{
+    color: lightskyblue;
+}
